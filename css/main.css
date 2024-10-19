@@ -1322,11 +1322,22 @@ body {
 
 /* start latest-events */
 
+.latest-events {
+  padding: 50px 0;
+  position: relative;
+}
 .latest-events .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.enwan-latest-events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .latest-events .container .img-events img {
