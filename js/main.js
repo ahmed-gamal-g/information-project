@@ -217,7 +217,7 @@ window.onscroll = function () {
 
   // ****************************************************
 
-  if (window.scrollY > ourSkills.offsetTop) {
+  if (window.scrollY > ourSkills.offsetTop -150) {
     progressSkills.forEach((skill) => {
       skill.style.width = skill.dataset.width;
     });
